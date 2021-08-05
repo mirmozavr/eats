@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
+    <link rel="stylesheet" href="style.css">
+    <title>UBER Eats</title>
+</head>
+<body>
+
+<!--top navigation bar begins here-->
+<div class="navbar">
+    <div class="my_container">
+        <div class="logo">
+            <a href="main.html"><img src="src/eats-logo.svg"></a>
+        </div>
+        <a href="#">
+            <div class="bag">
+                <img src="src/basket.svg">
+            </div>
+        </a>
+        <a href="#">
+            <div class="signin">
+                <div class="signin-text">Войти</div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- grid of places begin here-->
+<div class="my_container">
+    <form class="form1"><input class="top_search"
+                               type="search"
+                               name="q"
+                               placeholder="Поиск по ресторанам и кухням"></form>
+    <hr>
+    <p class="rim">Рестораны в Москве</p>
+    
+    <div class="row center"> <!-- second row - all cards -->
+        <div class="col-xs-12
+                col-sm-6
+                col-md-6
+                col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (7).png">
+                <div class="store-name">Макдоналдс — Газетный</div>
+                <div class="store-type">₽₽ • Бургеры</div>
+                <div class="store-time">25 - 35 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+                col-sm-6
+                col-md-6
+                col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (8).png">
+                <div class="store-name">DimSum & Co — ЦДМ</div>
+                <div class="store-type">₽ • Японская • Китайская • Азиатская</div>
+                <div class="store-time">40 - 50 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+                col-sm-6
+                col-md-6
+                col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (6).png">
+                <div class="store-name">ДвижОК — Манежная</div>
+                <div class="store-type">₽ • Американская • Европейская</div>
+                <div class="store-time">35 - 45 мин</div>
+            </a>
+        </div>
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (5).png">
+                <div class="store-name">НЯ — NHA</div>
+                <div class="store-type">₽₽ • Вьетнамская</div>
+                <div class="store-time">30 - 40 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (4).png">
+                <div class="store-name">Точка Дзы — Цветной</div>
+                <div class="store-type">₽₽ • Вьетнамская</div>
+                <div class="store-time">40 - 50 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (2).png">
+                <div class="store-name">Cinnabon</div>
+                <div class="store-type">₽ • Выпечка • Десерты • Капкейки</div>
+                <div class="store-time">25 - 35 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (3).png">
+                <div class="store-name">PIZZELOVE</div>
+                <div class="store-type">₽₽ • Пицца</div>
+                <div class="store-time">15 - 25 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (9).png">
+                <div class="store-name">Zю кафе — Тверская</div>
+                <div class="store-type">₽₽ • Японская</div>
+                <div class="store-time">25 - 35 мин</div>
+            </a>
+        </div>
+        
+        <div class="col-xs-12
+            col-sm-6
+            col-md-6
+            col-lg-4">
+            <a href="store.html" class="card">
+                <img class="store-img" src="src/stores/str (1).png">
+                <div class="store-name">Bar BQ Cafe — Манежная</div>
+                <div class="store-type">₽₽₽ • Европейская</div>
+                <div class="store-time">30 - 40 мин</div>
+            </a>
+        </div>
+    
+    </div>
+</div>
+
+<!--footer with grey background-->
+<div class="footer">
+    <div class="my_container">
+        <div class="logo2">
+            <img class="logo2-img" src="src/logo2.svg">
+        </div>
+        
+        <hr>
+        
+        <div class="row">
+            <div class="col-xs-12
+            col-md-4
+            col-lg-4">
+                <div class="lang-select">
+                    <img class="world" src="src/world.svg">
+                    <select class="selector">
+                        <option value="russian" selected="">Русский</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+                
+                <div class="tag">
+                    <p><span class="green">#</span>UberEats</p>
+                </div>
+                
+                <div class="social_block">
+                    <a href="#"><img src="src/facebook.svg"></a>
+                    <a href="#"><img src="src/twitter.svg"></a>
+                    <a href="#"><img src="src/instagram.svg"></a>
+                </div>
+            </div>
+            
+            <div class="col-xs-12
+            col-md-4
+            col-lg-4">
+                <a href="#">
+                    <div class="footer_link">Об UberEats</div>
+                </a>
+                <a href="#">
+                    <div class="footer_link">Станьте партнёром по доставке</div>
+                </a>
+                <a href="#">
+                    <div class="footer_link">Станьте парнёром-рестораном</div>
+                </a>
+            </div>
+            
+            <div class="col-xs-12
+            col-md-4
+            col-lg-4">
+                <a href="#">
+                    <div class="footer_link">Все города</div>
+                </a>
+                <a href="#">
+                    <div class="footer_link">Цены</div>
+                </a>
+                <a href="#">
+                    <div class="footer_link">Помощь</div>
+                </a>
+                <a href="#">
+                    <div class="footer_link">FAQs</div>
+                </a>
+            </div>
+        
+        </div>
+        
+        <hr>
+        
+        <!--app stores badges-->
+        <div class="row center-xs">
+            <a href="#"><img class="badge" src="src/google-play-badge.png"></a>
+            <a href="#"><img class="badge" src="src/app-store-badge.png"></a>
+        </div>
+        
+        <hr>
+        
+        <div class="row between-xs">
+            <div class="col-xs-12
+                        col-md-4
+                        col-lg-4">
+                <a href="#">
+                    <div class="footer_link footer_link_small">© 2017 Uber Technologies Inc.</div>
+                </a>
+            </div>
+            <div class="col-xs-12
+                        col-md-4
+                        col-lg-4">
+                <a href="#">
+                    <div class="footer_link footer_link_small">Обработка персональных данных</div>
+                </a>
+            </div>
+            <div class="col-xs-12
+                        col-md-4
+                        col-lg-4">
+                <a href="#">
+                    <div class="footer_link footer_link_small">Пользовательское соглашение</div>
+                </a>
+            </div>
+        </div>
+        
+        <a href="#">
+            <div class="btn_up">
+                <img class="arrow" src="src/arrow.svg">
+            </div>
+        </a>
+    
+    </div>
+</div>
+
+
+</body>
+</html>
